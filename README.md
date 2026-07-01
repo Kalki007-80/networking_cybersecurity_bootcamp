@@ -1,6 +1,6 @@
 # Networking & Cybersecurity Bootcamp
 
-![Status](https://img.shields.io/badge/status-in--progress-blue)
+
 ![Days](https://img.shields.io/badge/days-12-informational)
 ![Language](https://img.shields.io/badge/language-Python%203-yellow)
 ![License](https://img.shields.io/badge/license-Educational--Use-lightgrey)
