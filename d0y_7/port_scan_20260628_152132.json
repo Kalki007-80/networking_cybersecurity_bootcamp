@@ -1,0 +1,27 @@
+{
+    "target": "youtube.com",
+    "ip": "142.251.43.46",
+    "mode": "normal",
+    "timeout": 2.0,
+    "workers": 50,
+    "scan_start": "2026-06-28T15:21:32.702445",
+    "duration_seconds": 42.09,
+    "ports_scanned": 1024,
+    "open_ports": [
+        {
+            "port": 80,
+            "state": "OPEN",
+            "service": "HTTP",
+            "banner": "HTTP/1.0 200 OK\r\nContent-Type: text/html; charset=ISO-8859-1\r\nContent-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-7eye9FWKbCSz8XZVJHWHnA' 'strict-dynamic' 'report-",
+            "rtt_ms": 143.2
+        },
+        {
+            "port": 443,
+            "state": "OPEN",
+            "service": "HTTPS",
+            "banner": null,
+            "rtt_ms": 33.52
+        }
+    ],
+    "closed_ports": 1022
+}

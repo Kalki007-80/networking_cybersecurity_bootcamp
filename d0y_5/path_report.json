@@ -1,0 +1,15 @@
+{
+    "target": "kct.ac.in",
+    "resolved_ip": "104.21.56.170",
+    "ping": {
+        "sent": 4,
+        "received": 4,
+        "loss": 0.0,
+        "min_rtt": 195.542,
+        "avg_rtt": 227.579,
+        "max_rtt": 251.792
+    },
+    "route": [],
+    "hop_count": 0,
+    "timestamp": "2026-06-27T08:51:22.535029"
+}

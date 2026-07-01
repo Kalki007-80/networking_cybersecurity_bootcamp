@@ -1,0 +1,34 @@
+{
+    "timestamp": "2026-06-30T18:39:27.579495",
+    "target": "example.com:80",
+    "host": "example.com",
+    "port": 80,
+    "ssl": false,
+    "path": "/",
+    "method": "GET",
+    "timings": {
+        "dns_ms": 226.59,
+        "connect_ms": 201.65,
+        "tls_ms": 0,
+        "transfer_ms": 207.6,
+        "total_ms": 635.95
+    },
+    "certificate": null,
+    "status_code": 200,
+    "status_message": "OK",
+    "headers": {
+        "date": "Tue, 30 Jun 2026 13:09:27 GMT",
+        "content-type": "text/html",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "server": "cloudflare",
+        "last-modified": "Sat, 27 Jun 2026 11:26:45 GMT",
+        "allow": "GET, HEAD",
+        "accept-ranges": "bytes",
+        "age": "546",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a13d67cedede7f85-MAA"
+    },
+    "body_preview": "22f\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://i",
+    "body_size": 571
+}

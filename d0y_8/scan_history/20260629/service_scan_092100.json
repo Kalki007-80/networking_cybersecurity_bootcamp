@@ -1,0 +1,29 @@
+{
+    "target": "tryhackme.com",
+    "ip": "64.239.123.129",
+    "scan_start": "2026-06-29T09:21:00.237778",
+    "duration_seconds": 2.01,
+    "ports_scanned": 22,
+    "open_ports": [
+        {
+            "port": 80,
+            "state": "OPEN",
+            "service": "HTTP",
+            "banner": "HTTP/1.0 308 Permanent Redirect\r\nContent-Type: text/plain\r\nLocation",
+            "connect_time_ms": 158.65,
+            "read_time_ms": 409.23,
+            "webserver": "Other"
+        },
+        {
+            "port": 443,
+            "state": "OPEN",
+            "service": "HTTPS",
+            "banner": "Server: Vercel",
+            "connect_time_ms": 157.45,
+            "read_time_ms": 821.91,
+            "webserver": "Other"
+        }
+    ],
+    "closed": 20,
+    "cancelled": false
+}

@@ -1,0 +1,5 @@
+port,service,connect_time_ms,read_time_ms,banner,webserver
+80,HTTP,158.65,409.23,"HTTP/1.0 308 Permanent Redirect
+Content-Type: text/plain
+Location",Other
+443,HTTPS,157.45,821.91,Server: Vercel,Other

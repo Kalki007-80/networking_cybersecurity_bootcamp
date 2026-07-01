@@ -1,0 +1,4 @@
+# Shadow Network Operation Center
+# Uses only the Python standard library
+# Python 3.6+ required
+# Relies on system 'ping' and 'tracepath' binaries being available on PATH

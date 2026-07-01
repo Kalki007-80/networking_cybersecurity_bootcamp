@@ -1,0 +1,78 @@
+============================================================
+  SHADOW NETWORK OPERATION CENTER REPORT
+============================================================
+
+Mission ID: 20260701_105712
+Target    : tryhackme.com
+Timestamp : 2026-07-01T10:57:12.869078
+Duration  : 87.03s
+Status    : complete
+
+
+DNS
+----------------------------------------
+  ipv4: 2 items
+  ipv6: 0 items
+  reverse: None
+
+PING
+----------------------------------------
+  alive: True
+  sent: 4
+  received: 4
+  loss: 0.0
+  min_rtt: 199.357
+  avg_rtt: 233.15
+  max_rtt: 266.866
+
+TRACEROUTE
+----------------------------------------
+  hops: 5 items
+  count: 5
+
+PORT_SCAN
+----------------------------------------
+  open: 2 items
+  closed: 15 items
+
+BANNERS
+----------------------------------------
+  {'port': 80, 'service': 'HTTP', 'banner': 'Server: Vercel'}
+  {'port': 443, 'service': 'HTTPS', 'banner': None}
+
+SSL
+----------------------------------------
+  valid: False
+  subject: None
+  issuer: None
+  not_before: None
+  not_after: None
+  serial: None
+  tls_version: None
+  cipher: None
+
+HTTP
+----------------------------------------
+  status_code: 429
+  status_message: Too Many Requests
+  headers: {'cache-control': 'private, no-store, max-age=0', 'content-type': 'text/html; charset=utf-8', 'server': 'Vercel', 'x-vercel-challenge-token': '2.1782883719.60.OGE2Y2RjODhjMjZjNjE3MzFlZTQwODg4NDIyYWJjZjk7YTI0MDVjOTU7MjQ3YTcxNDhkYmFlOTI1MDE4ZTU5YTc3ZjUyZjUxYzYzNmNmYzU5OTszO5OSn7x0SEDfhaDI+PfzcMXCIaq1pXWUVzPku06Drbcphs+lrd/XbY9wIJ/GTY4=.200c3dd1e125a058b159c0d3efd028e1', 'x-vercel-id': 'bom1::1782883719-KQjVPAsLJeQEUnPo74q5eG3jpyzgRoOO', 'x-vercel-mitigated': 'challenge', 'date': 'Wed, 01 Jul 2026 05:28:39 GMT', 'connection': 'close', 'transfer-encoding': 'chunked'}
+  body_preview: 673b
+<!DOCTYPE html><html lang="en" data-astro-cid-nbv56vs3> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#000"><title>Vercel Security Checkpoint</title><style>.spinner[data-astro-cid-jlpqxutv]{display:flex;flex-direction:column;justify-content:center;align-items:center}.spinner-circle[data-astro-cid-jlpqxutv]{transform-origin:center;animation:spinner-circle-animate 1s step-start infinite}rect[data-astro-cid-jl
+  body_size: 31077
+  redirects: 0
+  final_url: https://tryhackme.com
+
+SECURITY
+----------------------------------------
+  strict_transport_security: {'present': False, 'value': 'Not Set'}
+  content_security_policy: {'present': False, 'value': 'Not Set'}
+  x_frame_options: {'present': False, 'value': 'Not Set'}
+  x_content_type_options: {'present': False, 'value': 'Not Set'}
+  referrer_policy: {'present': False, 'value': 'Not Set'}
+  permissions_policy: {'present': False, 'value': 'Not Set'}
+
+COOKIES
+----------------------------------------
+
+TECHNOLOGIES
+----------------------------------------

@@ -1,0 +1,29 @@
+==================================================
+  NETWORK INSPECTOR REPORT
+  Generated: 2026-06-24 09:03:15
+==================================================
+
+SYSTEM INFORMATION
+------------------------------
+Hostname    : ka1k1-x00
+OS          : Linux
+Release     : 7.0.0-22-generic
+Architecture: x86_64
+Processor   : 
+
+NETWORK INFORMATION
+------------------------------
+Interface   : wlo1
+IP Address  : 10.x.x.x
+MAC Address : f0:x:x:x:x:x
+Gateway     : 10.x.x.x
+
+DNS SERVERS
+------------------------------
+  127.0.0.x
+
+INTERNET CONNECTIVITY
+------------------------------
+Status      : Connected
+
+==================================================

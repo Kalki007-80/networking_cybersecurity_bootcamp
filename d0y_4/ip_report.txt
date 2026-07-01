@@ -1,0 +1,46 @@
+============================================================
+        IP INTELLIGENCE REPORT
+  Generated: 2026-06-26T14:26:22.464791
+============================================================
+
+IP ADDRESS INFORMATION
+----------------------------------------
+IP Address      : 223.237.183.13
+CIDR Prefix     : 32
+Subnet Mask     : 255.255.255.255
+Prefix Length   : 32
+IP Class        : C
+
+BINARY REPRESENTATION
+----------------------------------------
+IP Address      : 11011111.11101101.10110111.00001101
+Subnet Mask     : 11111111.11111111.11111111.11111111
+
+NETWORK DETAILS
+----------------------------------------
+Network Address : 223.237.183.13
+Broadcast       : 223.237.183.13
+First Host      : 223.237.183.14
+Last Host       : 223.237.183.12
+Total Addresses : 1
+Usable Hosts    : 1
+
+CLASSIFICATION
+----------------------------------------
+Private     : No
+Global      : Yes
+Loopback    : No
+Link-local  : No
+Multicast   : No
+
+NETWORK SUMMARY
+----------------------------------------
+IP Address      : 223.237.183.13
+Network         : 223.237.183.13/32
+Broadcast       : 223.237.183.13
+Host Range      : 223.237.183.14 - 223.237.183.12
+Total Addresses : 1
+Usable Hosts    : 1
+Type            : Public Class C Network
+
+============================================================

@@ -1,0 +1,19 @@
+============================================================
+        PORT GATEKEEPER SCAN REPORT
+  Generated: 2026-06-28T15:21:32.702445
+============================================================
+
+Target: youtube.com (142.251.43.46)
+Mode: normal
+Ports scanned: 1024
+Duration: 42.09 s
+
+OPEN PORTS
+----------------------------------------
+Port    80 : OPEN HTTP         RTT:143.20ms
+      Banner: HTTP/1.0 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce
+Port   443 : OPEN HTTPS        RTT:33.52ms
+
+============================================================

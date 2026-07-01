@@ -1,0 +1,62 @@
+{
+    "timestamp": "2026-06-25T18:49:29.479723",
+    "packets": [
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "443",
+            "dst_ip": "10.13.221.65",
+            "dst_port": "55668",
+            "protocol": "HTTPS",
+            "flags": "P."
+        },
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "55668",
+            "dst_ip": "163.181.87.71",
+            "dst_port": "443",
+            "protocol": "HTTPS",
+            "flags": "."
+        },
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "443",
+            "dst_ip": "10.13.221.65",
+            "dst_port": "55668",
+            "protocol": "HTTPS",
+            "flags": "F."
+        },
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "443",
+            "dst_ip": "10.13.221.65",
+            "dst_port": "55668",
+            "protocol": "HTTPS",
+            "flags": "F."
+        },
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "443",
+            "dst_ip": "10.13.221.65",
+            "dst_port": "55668",
+            "protocol": "HTTPS",
+            "flags": "F."
+        },
+        {
+            "src_ip": "x.x.x.x",
+            "src_port": "55668",
+            "dst_ip": "163.181.87.71",
+            "dst_port": "443",
+            "protocol": "HTTPS",
+            "flags": "."
+        }
+    ],
+    "counts": {
+        "TCP": 0,
+        "UDP": 0,
+        "DNS": 0,
+        "HTTPS": 6,
+        "HTTP": 0,
+        "SSH": 0,
+        "Other": 0
+    }
+}

@@ -1,0 +1,4 @@
+# Execution log — entries are appended automatically when shadow_noc.py runs.
+# Format: [<timestamp>] [<LEVEL>] <message>
+[2026-07-01T10:57:12.869085] [INFO] [*] Starting mission: 20260701_105712 -> tryhackme.com
+[2026-07-01T10:58:39.918854] [INFO] [+] Mission complete.

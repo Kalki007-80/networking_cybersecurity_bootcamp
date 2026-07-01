@@ -1,0 +1,22 @@
+{
+    "ip_address": "223.237.183.13",
+    "cidr": 32,
+    "network_address": "223.237.183.13",
+    "broadcast_address": "223.237.183.13",
+    "first_host": "223.237.183.14",
+    "last_host": "223.237.183.12",
+    "total_hosts": 1,
+    "usable_hosts": 1,
+    "is_private": false,
+    "is_global": true,
+    "is_loopback": false,
+    "is_link_local": false,
+    "is_multicast": false,
+    "subnet_mask": "255.255.255.255",
+    "prefix_length": 32,
+    "ip_binary": "11011111.11101101.10110111.00001101",
+    "mask_binary": "11111111.11111111.11111111.11111111",
+    "ip_class": "C",
+    "summary": "IP Address      : 223.237.183.13\nNetwork         : 223.237.183.13/32\nBroadcast       : 223.237.183.13\nHost Range      : 223.237.183.14 - 223.237.183.12\nTotal Addresses : 1\nUsable Hosts    : 1\nType            : Public Class C Network",
+    "timestamp": "2026-06-26T14:26:22.464791"
+}

@@ -1,0 +1,20 @@
+{
+    "system": {
+        "hostname": "ka1k1-x00",
+        "os": "Linux",
+        "release": "7.0.0-22-generic",
+        "machine": "x86_64",
+        "processor": ""
+    },
+    "network": {
+        "interface": "wlo1",
+        "ip": "10.x.x.x",
+        "mac": "f0:x:x:x:x:x"
+    },
+    "gateway": "10.x.x.x",
+    "dns": [
+        "127.0.0.x"
+    ],
+    "internet": true,
+    "timestamp": "2026-06-24T09:03:15.749853"
+}

@@ -1,0 +1,154 @@
+{
+    "mission_id": "20260701_105712",
+    "timestamp": "2026-07-01T10:57:12.869078",
+    "target": "tryhackme.com",
+    "duration_seconds": 87.03,
+    "status": "complete",
+    "results": {
+        "dns": {
+            "ipv4": [
+                "64.239.109.129",
+                "64.239.123.129"
+            ],
+            "ipv6": [],
+            "reverse": null
+        },
+        "ping": {
+            "alive": true,
+            "sent": 4,
+            "received": 4,
+            "loss": 0.0,
+            "min_rtt": 199.357,
+            "avg_rtt": 233.15,
+            "max_rtt": 266.866
+        },
+        "traceroute": {
+            "hops": [
+                {
+                    "hop": 1,
+                    "ip": "10.215.67.66",
+                    "rtt_ms": 3.955
+                },
+                {
+                    "hop": 1,
+                    "ip": "10.215.67.66",
+                    "rtt_ms": 3.454
+                },
+                {
+                    "hop": 3,
+                    "ip": "192.168.116.149",
+                    "rtt_ms": 351.473
+                },
+                {
+                    "hop": 6,
+                    "ip": "125.18.85.61",
+                    "rtt_ms": 240.319
+                },
+                {
+                    "hop": 7,
+                    "ip": "182.79.198.20",
+                    "rtt_ms": 204.251
+                }
+            ],
+            "count": 5
+        },
+        "port_scan": {
+            "open": [
+                {
+                    "port": 80,
+                    "rtt_ms": 131.06
+                },
+                {
+                    "port": 443,
+                    "rtt_ms": 130.15
+                }
+            ],
+            "closed": [
+                21,
+                22,
+                23,
+                25,
+                53,
+                110,
+                143,
+                993,
+                995,
+                3306,
+                5432,
+                6379,
+                8080,
+                8443,
+                27017
+            ]
+        },
+        "banners": [
+            {
+                "port": 80,
+                "service": "HTTP",
+                "banner": "Server: Vercel"
+            },
+            {
+                "port": 443,
+                "service": "HTTPS",
+                "banner": null
+            }
+        ],
+        "ssl": {
+            "valid": false,
+            "subject": null,
+            "issuer": null,
+            "not_before": null,
+            "not_after": null,
+            "serial": null,
+            "tls_version": null,
+            "cipher": null
+        },
+        "http": {
+            "status_code": 429,
+            "status_message": "Too Many Requests",
+            "headers": {
+                "cache-control": "private, no-store, max-age=0",
+                "content-type": "text/html; charset=utf-8",
+                "server": "Vercel",
+                "x-vercel-challenge-token": "2.1782883719.60.OGE2Y2RjODhjMjZjNjE3MzFlZTQwODg4NDIyYWJjZjk7YTI0MDVjOTU7MjQ3YTcxNDhkYmFlOTI1MDE4ZTU5YTc3ZjUyZjUxYzYzNmNmYzU5OTszO5OSn7x0SEDfhaDI+PfzcMXCIaq1pXWUVzPku06Drbcphs+lrd/XbY9wIJ/GTY4=.200c3dd1e125a058b159c0d3efd028e1",
+                "x-vercel-id": "bom1::1782883719-KQjVPAsLJeQEUnPo74q5eG3jpyzgRoOO",
+                "x-vercel-mitigated": "challenge",
+                "date": "Wed, 01 Jul 2026 05:28:39 GMT",
+                "connection": "close",
+                "transfer-encoding": "chunked"
+            },
+            "body_preview": "673b\r\n<!DOCTYPE html><html lang=\"en\" data-astro-cid-nbv56vs3> <head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta name=\"theme-color\" content=\"#000\"><title>Vercel Security Checkpoint</title><style>.spinner[data-astro-cid-jlpqxutv]{display:flex;flex-direction:column;justify-content:center;align-items:center}.spinner-circle[data-astro-cid-jlpqxutv]{transform-origin:center;animation:spinner-circle-animate 1s step-start infinite}rect[data-astro-cid-jl",
+            "body_size": 31077,
+            "redirects": 0,
+            "final_url": "https://tryhackme.com"
+        },
+        "security": {
+            "strict_transport_security": {
+                "present": false,
+                "value": "Not Set"
+            },
+            "content_security_policy": {
+                "present": false,
+                "value": "Not Set"
+            },
+            "x_frame_options": {
+                "present": false,
+                "value": "Not Set"
+            },
+            "x_content_type_options": {
+                "present": false,
+                "value": "Not Set"
+            },
+            "referrer_policy": {
+                "present": false,
+                "value": "Not Set"
+            },
+            "permissions_policy": {
+                "present": false,
+                "value": "Not Set"
+            }
+        },
+        "cookies": [],
+        "technologies": []
+    }
+}

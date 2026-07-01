@@ -1,0 +1,75 @@
+{
+    "timestamp": "2026-06-24T12:29:12.142379",
+    "connections": [
+        {
+            "protocol": "udp",
+            "state": "ESTAB",
+            "local": "10.46.153.65%wlo1:68",
+            "remote": "10.46.153.59:67"
+        },
+        {
+            "protocol": "udp",
+            "state": "ESTAB",
+            "local": "10.46.153.65:46897",
+            "remote": "52.110.15.132:443"
+        },
+        {
+            "protocol": "udp",
+            "state": "ESTAB",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:39852",
+            "remote": "[2606:4700:83b2:7cbc:c23b:6b3:5ff2:75c4]:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "10.46.153.65:33512",
+            "remote": "3.173.21.63:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "10.46.153.65:60422",
+            "remote": "163.181.87.68:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "10.46.153.65:59214",
+            "remote": "52.110.15.163:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:47338",
+            "remote": "[2606:4700:83b1:d8b7:9a3b:623:ccf5:ac50]:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "LAST-ACK",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:40478",
+            "remote": "[2407:c080:802:1ce8:264:34fc:f6b5:12ea]:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:53456",
+            "remote": "[2603:1063:2000:1::12]:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:56072",
+            "remote": "[2603:1063:2001:1d38::365:ff1]:443"
+        },
+        {
+            "protocol": "tcp",
+            "state": "ESTAB",
+            "local": "[2401:4900:925f:359:71e3:ffc0:61ac:b45e]:52892",
+            "remote": "[2606:4700:83b2:7cbc:c23b:6b3:5ff2:75c4]:443"
+        }
+    ],
+    "counts": {
+        "tcp": 8,
+        "udp": 3
+    }
+}

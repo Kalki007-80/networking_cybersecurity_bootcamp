@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shadow Web Server — Static Site</title>
+    <link rel="stylesheet" href="/files/style.css">
+    <link rel="stylesheet" href="/files/css/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Shadow<span>Web</span></div>
+        <div class="links">
+            <a href="/files/index.html">Home</a>
+            <a href="/files/about.html">About</a>
+            <a href="/status">API Status</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img src="/files/images/logo.png" alt="Shadow Web Server logo" class="logo">
+        <h1>Welcome to Shadow Web Server</h1>
+        <p>A hand-built HTTP server, serving this page straight from <code>www/</code> — no frameworks involved.</p>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <h2>This page is a static file</h2>
+            <p>
+                Everything you're looking at right now — this HTML, the stylesheet, and the script
+                running below — is served by <code>serve_static_file()</code> from the
+                <code>/files/</code> route, exactly the way Apache or Nginx would serve a document root.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Try it live</h2>
+            <p>Click the button below — it calls the server's own <code>/json</code> API using plain JavaScript.</p>
+            <button id="ping-btn">Ping the server</button>
+            <pre id="ping-result">Response will appear here...</pre>
+        </section>
+
+        <section class="card grid">
+            <div class="grid-item">
+                <h3>🧵 Threaded</h3>
+                <p>Every client connection is handled on its own thread.</p>
+            </div>
+            <div class="grid-item">
+                <h3>📁 Static + Dynamic</h3>
+                <p>Serves files from <code>www/</code> and JSON from Python route handlers.</p>
+            </div>
+            <div class="grid-item">
+                <h3>📝 Logged</h3>
+                <p>Every request is written to <code>logs/server.log</code> with timing info.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Shadow Web Server v2.0 &middot; Day 11 Bootcamp Project &middot; Author: Mukesh S</p>
+    </footer>
+
+    <script src="/files/script.js"></script>
+    <script src="/files/js/app.js"></script>
+</body>
+</html>

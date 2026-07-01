@@ -1,0 +1,5 @@
+port,state,service,rtt_ms,banner
+80,OPEN,HTTP,143.2,"HTTP/1.0 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-7eye9FWKbCSz8XZVJHWHnA' 'strict-dynamic' 'report-"
+443,OPEN,HTTPS,33.52,

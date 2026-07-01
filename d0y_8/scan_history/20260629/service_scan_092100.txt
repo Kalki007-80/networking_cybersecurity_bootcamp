@@ -1,0 +1,27 @@
+============================================================
+        SERVICE WHISPERER REPORT
+  Generated: 2026-06-29T09:21:00.237778
+============================================================
+
+Target: tryhackme.com (64.239.123.129)
+Ports scanned: 22
+Duration: 2.01 s
+
+OPEN PORTS WITH BANNERS
+----------------------------------------
+Port    80 : HTTP        
+      Connect Time: 158.65ms
+      Read Time   : 409.23ms
+      Banner      : HTTP/1.0 308 Permanent Redirect
+Content-Type: text/plain
+Location
+      Web Server  : Other
+
+Port   443 : HTTPS       
+      Connect Time: 157.45ms
+      Read Time   : 821.91ms
+      Banner      : Server: Vercel
+      Web Server  : Other
+
+
+============================================================

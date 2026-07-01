@@ -1,0 +1,127 @@
+{
+    "url": "https://example.com/",
+    "host": "example.com",
+    "port": 443,
+    "path": "/",
+    "ssl": true,
+    "method": "GET",
+    "proxy": null,
+    "keep_alive": true,
+    "timestamp": "2026-06-30T16:50:17.265825",
+    "validation": {
+        "valid": true,
+        "message": "Status OK",
+        "schema_used": false
+    },
+    "timings": {
+        "dns_ms": 265.65,
+        "connect_ms": 204.21,
+        "tls_ms": 217.09,
+        "transfer_ms": 10407.4,
+        "total_ms": 11094.35
+    },
+    "certificate": {
+        "subject": [
+            [
+                [
+                    "commonName",
+                    "example.com"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "SSL Corporation"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "Cloudflare TLS Issuing ECC CA 3"
+                ]
+            ]
+        ],
+        "version": 3,
+        "serialNumber": "1AA73FEA257BE3334B9A29552E6F878E",
+        "notBefore": "May 31 21:39:12 2026 GMT",
+        "notAfter": "Aug 29 21:41:26 2026 GMT",
+        "subjectAltName": [
+            [
+                "DNS",
+                "example.com"
+            ],
+            [
+                "DNS",
+                "*.example.com"
+            ]
+        ],
+        "OCSP": [
+            "http://o.cf-i.ssl.com"
+        ],
+        "caIssuers": [
+            "http://i.cf-i.ssl.com/Cloudflare-TLS-I-E3.cer"
+        ],
+        "crlDistributionPoints": [
+            "http://c.cf-i.ssl.com/ae801ed1c55bb579d79208b0d772acfb8cc3a208.crl"
+        ]
+    },
+    "head": {
+        "status_code": 200,
+        "status_message": "OK",
+        "headers": {
+            "date": "Tue, 30 Jun 2026 11:20:18 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "last-modified": "Sat, 27 Jun 2026 11:29:36 GMT",
+            "allow": "GET, HEAD",
+            "accept-ranges": "bytes",
+            "age": "8346",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a13cc7e9cdeb7237-MAA"
+        },
+        "response_time_ms": 11094.35
+    },
+    "redirects": {
+        "count": 0,
+        "final_url": "https://example.com/"
+    },
+    "body": {
+        "status_code": 200,
+        "status_message": "OK",
+        "headers": {
+            "date": "Tue, 30 Jun 2026 11:20:18 GMT",
+            "content-type": "text/html",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "cloudflare",
+            "last-modified": "Sat, 27 Jun 2026 11:29:36 GMT",
+            "allow": "GET, HEAD",
+            "accept-ranges": "bytes",
+            "age": "8346",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a13cc7e9cdeb7237-MAA"
+        },
+        "response_time_ms": 11094.35,
+        "body_size": 566,
+        "body_preview": "22f\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://ia"
+    },
+    "security": {
+        "strict_transport_security": "Not Set",
+        "content_security_policy": "Not Set",
+        "x_frame_options": "Not Set",
+        "x_content_type_options": "Not Set",
+        "referrer_policy": "Not Set",
+        "x_xss_protection": "Not Set"
+    },
+    "cookies": []
+}
